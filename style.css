@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+span{
+	color: #EE4248;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+.header_container{
+	width: 70%;
+	display: flex;
+	margin: 0 auto;
+}
+.menu{
+	width: 80%;
+	margin: 0 auto;
+}
+.menu a i{
+	margin-left: 8px;
+}
+.menu a{
+	font-size: 18px;
+	font-weight: 400;
+	color: #1F2E35;
+	margin: 0 25px;
+}
+.header .icons{
+	width: 10%;
+	text-align: left;
+}
+.header .icons i{
+	margin-left: 15px;
+	color: black;
+}
+
+.container_1{
+	display: flex;
+}
+.container_1 .left{
+	width: 600px;
+	height: 192px;
+	margin: 125px 0 0 157px;
+
+}
+.container_1 .left h1{
+	font-size: 48px;
+}
+.container_1 .left p{
+	margin-top: 24px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 29px;
+}
+.container_1 .left button{
+	margin-top: 24px;
+	gap: 10px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+	width: 161px;
+	height: 53px;
+	color: white;
+	background: #EE4248;
+	font-weight: 400;
+	font-size: 20px;
+}
+.container_1 .right{
+	margin: 110px 0 0 54.4px;
+}
+
+.container_2{
+	display: flex;
+	height: 500px;
+	margin-top: 175px;
+	background: #F7F7F7;
+}
+
+.container_2 .left img{
+	margin-left: 235.62px;
+	margin-top: -11.97px;
+}
+
+.container_2 .right h1{
+	margin: 57px 0 0 82px;
+	width: 454px;
+	height: 86px;
+	font-weight: 500;
+	line-height: 133.69%;
+	color: #1F2E35;
+}
+.container_2 .right p{
+	margin: 24px 0 0 82px;
+	width: 520px;
+	height: 270px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+}
+
+.product_services{
+	margin-top: 116px;
+	text-align: center;
+	font-weight: 600;
+	font-style: normal;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container_3{
+	display: flex;
+	margin-top: 47px;
+}
+
+.container_3 .left{
+	margin-left: 150px;
+}
+.container_3 .middle{
+	margin-left: 150px;
+}
+.container_3 .right{
+	margin-left: 150px;
+}
+.container_3 h2{
+	color: #EE4248;
+	margin-top: 17px;
+	width: 197px;
+	height: 37px;
+	font-weight: 500;
+	font-weight: 600;
+	font-style: normal;
+	font-family: 'Poppins', sans-serif;
+}
+.container_3 p{
+	margin-top: 15px;
+	width: 319px;
+}
+.container_3 button{
+	margin-top: 15px;
+	width: 119px;
+	height: 42px;
+	font-size: 18px;
+	color: white;
+	background: #EE4248;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+}
+
+.mobile_specialist{
+	margin-top: 60px;
+}
+.mobile_specialist h1{
+	text-align: center;
+	font-weight: 600;
+	font-style: normal;
+	font-family: 'Poppins', sans-serif;
+}
+.mobile_specialist svg{
+	margin: 8px 45% 0 47%;
+}
+.container_4{
+	width: 100%;
+	display: flex;
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+
+}
+.container_4 .item{
+	width: 230px;
+	height: 300px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+	margin: 51px 0 39px 60px;
+	text-align: center;
+}
+.container_4 .item img{
+	margin: 20px 0 17px 0;
+}												
+.container_4 .item h4{
+	font-weight: 700;
+	color: #EE4248;
+}
+.container_4 .item h3{
+	margin-top: 4px;
+}
+.social_links a img{
+	background-color: #EE4248;
+	border-radius: 100%;
+	margin-top: 10px;
+	margin-bottom: 22px;
+
+}
+
+.container_5{
+	width: 80%;
+	height: 220px;
+	display: flex;
+	margin: 0 auto;
+}
+.container_5 .section_1{
+	margin-top: 94px;
+	margin-left: 25px;
+}
+.container_5 .section_1 h3{
+	width: 259px;
+}
+
+.container_5 .section_1 p{
+	margin-top: 8px;
+	width: 317px;
+	height: 54px;
+}
+.container_5 .section_2{
+	margin-top: 51px;
+	margin-left: 47px;
+}
+.container_5 .section_2 h2{
+	width: 85px;
+	margin-bottom: 8px;
+}
+
+.container_5 .section_2 p{
+	margin-top: 4px;
+	width: 269px;
+}
+.container_5 .section_3{
+	margin: 75px 0 0 82px;
+}
+.container_5 .section_3 img{
+	margin-left: 25px;
+}
+.footer{
+	margin-top: 37px;
+	width: 100%;
+	height: 64px;
+	background-color: #EE4248;;
+	text-align: center;	
+	display: flex;
+	align-items: center;
+	color: white;
+	}
+.footer h3{
+	width: 100%;
+	font-weight: 400;
+}
